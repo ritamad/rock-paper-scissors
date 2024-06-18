@@ -11,5 +11,9 @@ function getComputerChoice() {
     return random;
 }
 
-
+//get human choice 
+function getHumanChoice() {
+    let humanChoice = prompt("Your turn! Rock, paper or scissors?");
+    return humanChoice;
+}
 
