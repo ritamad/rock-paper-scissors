@@ -14,6 +14,7 @@ function getComputerChoice() {
 //get human choice 
 function getHumanChoice() {
     let humanChoice = prompt("Your turn! Rock, paper or scissors?");
+    humanChoice = humanChoice.toLowerCase();
     return humanChoice;
 }
 
