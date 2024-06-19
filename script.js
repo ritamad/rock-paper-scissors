@@ -39,5 +39,6 @@ function playRound(humanChoice2, computerChoice2) {
 
 const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
+console.log(`Computer choice is: ${computerSelection}`);
 
 playRound(humanSelection, computerSelection);
