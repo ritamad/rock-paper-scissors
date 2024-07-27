@@ -1,0 +1,108 @@
+body {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    background-color: #b887e7; 
+    height: 100vh;
+
+
+}
+
+h1 {
+    text-align: center;
+    color: #c1a4dc;
+    font-size: 50px;
+    text-shadow:
+                -3px -3px 0 black,
+                 3px -3px 0 black,
+                -3px  3px 0 black,
+                 3px  3px 0 black;
+    
+}
+
+#container{
+    margin: auto;
+    width: 750px;
+}
+
+.game-container {
+    text-align: center;
+    padding: 40px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    padding: 30px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    color: coral;
+    background-color: white;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #b887e7;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#computer-choice {
+    
+    width: 150px;
+    height: 150px;
+    color: coral;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 150px;
+    
+    
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    background-color: #b887e7;
+    gap: 15px;
+    color: #c1a4dc;
+    font-size: 20px;
+    text-shadow:
+                -2px -2px 0 black,
+                 2px -2px 0 black,
+                -2px  2px 0 black,
+                 2px  2px 0 black;
+}
+
+.score{
+    border: 2px solid coral;
+    border-radius: 10%;
+    font-weight: lighter;
+    width: 40px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+div > p{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+#final-result, #final-scores{
+    text-align: center;
+    color:  rgb(238, 238, 15);
+    font-size: 26px;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
